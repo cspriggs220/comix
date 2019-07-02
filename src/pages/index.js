@@ -1,20 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
+import Layout from "../components/layout"
+import Listing from "../components/listing"
+import styled from 'styled-components'
 
-import Layout from "../components/layout/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+const Hero = styled.div`
+  text-align: center;
+`
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+const IndexPage = ({location}) => (
+  <Layout location={location}>
+    <Hero>
+      <h1>
+        This is... (drum role please)<br/>
+        Owen's comics!
+      </h1>
+      <p>You will love this site that has comics with an x!!</p>
+    </Hero>
+    <Listing />
   </Layout>
 )
 
