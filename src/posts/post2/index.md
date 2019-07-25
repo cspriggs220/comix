@@ -7,4 +7,4 @@ featuredImage: "./spiff-part-two.jpg"
 
 # The Adventures of Spaceman Spiff vs Mt. Mom - Part Two
 
-Here are some thoughts on today's comic!
+it's a great comic @ comix (with an 'x').com! kids 5 and up will be laughing all throughout the comic!
