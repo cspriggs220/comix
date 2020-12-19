@@ -1,6 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 const POST_ARCHIVE_QUERY = graphql`
   query BlogPostArchive {
@@ -46,11 +47,15 @@ const Archive = () => (
           <h3>Archive</h3>
           <ArchiveList>
             {allMarkdownRemark.edges.map(edge => (
-              <li key={edge.node.frontmatter.slug}>
+              <motion.li 
+                key={edge.node.frontmatter.slug}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 1 }}
+              >
                 <Link to={`/posts${edge.node.frontmatter.slug}`}>
                   {edge.node.frontmatter.title}
                 </Link>
-              </li>
+              </motion.li>
             ))}
           </ArchiveList>
         </ContentArchive>
