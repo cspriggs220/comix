@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Cody Spriggs <codyspriggs@gmail.com>",
   "dependencies": {
+    "@ramseyinhouse/eslint-config": "^1.0.4",
     "acorn": "6.4.1",
     "babel-plugin-styled-components": "^1.10.0",
     "framer-motion": "^2.9.5",
@@ -29,6 +30,8 @@
     "styled-components": "^4.2.1"
   },
   "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-plugin-react": "^7.24.0",
     "prettier": "^1.16.4"
   },
   "keywords": [
@@ -37,6 +40,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "lint": "eslint --ignore-path .gitignore",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
