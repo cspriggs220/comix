@@ -1787,6 +1787,15 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
+"@ramseyinhouse/stylelint-config@^1.1.0":
+  version "1.1.0"
+  resolved "https://ramseysolutions.jfrog.io/artifactory/api/npm/npm/@ramseyinhouse/stylelint-config/-/stylelint-config-1.1.0.tgz#3c1b6837b19c34df533bc31903591c171c177b04"
+  integrity sha1-PBtoN7GcNN9TO8MZA1kcFxwXewQ=
+  dependencies:
+    stylelint-config-prettier "^8.0.1"
+    stylelint-config-sass-guidelines "^7.1.0"
+    stylelint-order "^4.1.0"
+
 "@reach/router@^1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.3.4.tgz#d2574b19370a70c80480ed91f3da840136d10f8c"
@@ -11502,6 +11511,14 @@ postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.5:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
 
+postcss-sorting@^5.0.1:
+  version "5.0.1"
+  resolved "https://ramseysolutions.jfrog.io/artifactory/api/npm/npm/postcss-sorting/-/postcss-sorting-5.0.1.tgz#10d5d0059eea8334dacc820c0121864035bc3f11"
+  integrity sha1-ENXQBZ7qgzTazIIMASGGQDW8PxE=
+  dependencies:
+    lodash "^4.17.14"
+    postcss "^7.0.17"
+
 postcss-svgo@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/postcss-svgo/-/postcss-svgo-4.0.3.tgz#343a2cdbac9505d416243d496f724f38894c941e"
@@ -11553,7 +11570,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.3
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^7.0.14, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.35, postcss@^7.0.6:
+postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.31, postcss@^7.0.35, postcss@^7.0.6:
   version "7.0.36"
   resolved "https://ramseysolutions.jfrog.io/artifactory/api/npm/npm/postcss/-/postcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
   integrity sha1-BW+M/6k5ZiqPWQWVDAfVKFZE38s=
@@ -13691,6 +13708,39 @@ stylehacks@^4.0.0:
     browserslist "^4.0.0"
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
+
+stylelint-config-prettier@^8.0.1:
+  version "8.0.2"
+  resolved "https://ramseysolutions.jfrog.io/artifactory/api/npm/npm/stylelint-config-prettier/-/stylelint-config-prettier-8.0.2.tgz#da9de33da4c56893cbe7e26df239a7374045e14e"
+  integrity sha1-2p3jPaTFaJPL5+Jt8jmnN0BF4U4=
+
+stylelint-config-sass-guidelines@^7.1.0:
+  version "7.1.0"
+  resolved "https://ramseysolutions.jfrog.io/artifactory/api/npm/npm/stylelint-config-sass-guidelines/-/stylelint-config-sass-guidelines-7.1.0.tgz#7838fe04eee649a2444b568a32c904a26b5d6c1e"
+  integrity sha1-eDj+BO7mSaJES1aKMskEomtdbB4=
+  dependencies:
+    stylelint-order "^4.0.0"
+    stylelint-scss "^3.18.0"
+
+stylelint-order@^4.0.0, stylelint-order@^4.1.0:
+  version "4.1.0"
+  resolved "https://ramseysolutions.jfrog.io/artifactory/api/npm/npm/stylelint-order/-/stylelint-order-4.1.0.tgz#692d05b7d0c235ac66fcf5ea1d9e5f08a76747f6"
+  integrity sha1-aS0Ft9DCNaxm/PXqHZ5fCKdnR/Y=
+  dependencies:
+    lodash "^4.17.15"
+    postcss "^7.0.31"
+    postcss-sorting "^5.0.1"
+
+stylelint-scss@^3.18.0:
+  version "3.19.0"
+  resolved "https://ramseysolutions.jfrog.io/artifactory/api/npm/npm/stylelint-scss/-/stylelint-scss-3.19.0.tgz#528006d5a4c5a0f1f4d709b02fd3f626ed66d742"
+  integrity sha1-UoAG1aTFoPH01wmwL9P2Ju1m10I=
+  dependencies:
+    lodash "^4.17.15"
+    postcss-media-query-parser "^0.2.3"
+    postcss-resolve-nested-selector "^0.1.1"
+    postcss-selector-parser "^6.0.2"
+    postcss-value-parser "^4.1.0"
 
 stylelint@^13.13.1:
   version "13.13.1"
