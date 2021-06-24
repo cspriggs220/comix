@@ -41,9 +41,7 @@ const Layout = ({ children, location }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <LayoutMain>
-          <ContentBody>
-            {children}
-          </ContentBody>
+          <ContentBody>{children}</ContentBody>
           <Archive />
         </LayoutMain>
         <LayoutFooter>
@@ -61,7 +59,7 @@ Layout.propTypes = {
 }
 
 Layout.defaultProps = {
-  location: {}
+  location: {},
 }
 
 export default Layout

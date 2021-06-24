@@ -13,19 +13,23 @@ export default class postLayout extends Component {
     return (
       <Layout location={location}>
         <h1>{markdownRemark.frontmatter.title}</h1>
-        <motion.div 
-          initial={{ 
-            opacity: 0.5 
+        <motion.div
+          initial={{
+            opacity: 0.5,
           }}
-          animate={{ 
-            opacity: 1, 
-            rotate: 360 
-          }} 
-          transition={{ 
-            duration: 0.5 
+          animate={{
+            opacity: 1,
+            rotate: 360,
+          }}
+          transition={{
+            duration: 0.5,
           }}
         >
-          <Img fluid={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
+          <Img
+            fluid={
+              markdownRemark.frontmatter.featuredImage.childImageSharp.fluid
+            }
+          />
         </motion.div>
         <div
           dangerouslySetInnerHTML={{

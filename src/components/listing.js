@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link, StaticQuery, graphql } from 'gatsby'
-import styled from 'styled-components'
+import React from "react"
+import { Link, StaticQuery, graphql } from "gatsby"
+import styled from "styled-components"
 
 const LISTING_QUERY = graphql`
   query BlogPostListing {
@@ -38,7 +38,8 @@ const Post = styled.article`
     font-size: 1rem;
   }
   .read-more {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-size: 1rem;
     text-decoration: underline;
     color: #524763;
@@ -56,7 +57,9 @@ const Listing = () => (
           </Link>
           <p>{node.frontmatter.date}</p>
           <p>{node.excerpt}</p>
-          <Link class="read-more" to={`/posts${node.frontmatter.slug}`}>Read More</Link>
+          <Link class="read-more" to={`/posts${node.frontmatter.slug}`}>
+            Read More
+          </Link>
         </Post>
       ))
     }

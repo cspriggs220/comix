@@ -1,7 +1,7 @@
-import React from 'react'
-import { StaticQuery, graphql, Link } from 'gatsby'
-import styled from 'styled-components'
-import { motion } from 'framer-motion'
+import React from "react"
+import { StaticQuery, graphql, Link } from "gatsby"
+import styled from "styled-components"
+import { motion } from "framer-motion"
 
 const POST_ARCHIVE_QUERY = graphql`
   query BlogPostArchive {
@@ -31,7 +31,8 @@ const ArchiveList = styled.ul`
   margin: 0;
   list-style: none;
   a {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-size: 0.8rem;
     text-decoration: underline;
     color: #524763;
@@ -47,7 +48,7 @@ const Archive = () => (
           <h3>Archive</h3>
           <ArchiveList>
             {allMarkdownRemark.edges.map(edge => (
-              <motion.li 
+              <motion.li
                 key={edge.node.frontmatter.slug}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 1 }}
