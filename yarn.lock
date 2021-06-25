@@ -1801,8 +1801,8 @@
 
 "@ramseyinhouse/eslint-config@^1.0.4":
   version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@ramseyinhouse/eslint-config/-/eslint-config-1.0.4.tgz#74fb41acaab9915939c0a45273f2062203529d3c"
-  integrity sha512-utK5vxzRHRXwVtx6SQvi7qGYoGLo5K+3eg4mP3qNpTSa/qHpqb7U5LVOq8sAMmRMhwyG8zHnbkFH3SvHm/r4Zg==
+  resolved "https://ramseysolutions.jfrog.io/artifactory/api/npm/npm/@ramseyinhouse/eslint-config/-/eslint-config-1.0.4.tgz#74fb41acaab9915939c0a45273f2062203529d3c"
+  integrity sha1-dPtBrKq5kVk5wKRSc/IGIgNSnTw=
   dependencies:
     "@babel/core" "7.12.3"
     "@babel/eslint-parser" "^7.12.1"
@@ -2421,6 +2421,11 @@ acorn@^8.0.0:
   version "8.2.4"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.2.4.tgz#caba24b08185c3b56e3168e97d15ed17f4d31fd0"
   integrity sha512-Ibt84YwBDDA890eDiDCEqcbwvHlBvzzDkU2cGBBDDI1QWT12jTiXIOn2CIw5KK4i6N5Z2HUxwYjzriDyqaqqZg==
+
+add@^2.0.6:
+  version "2.0.6"
+  resolved "https://ramseysolutions.jfrog.io/artifactory/api/npm/npm/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
+  integrity sha1-JI8Kn25aUo7yKV2+7DBTITCuIjU=
 
 address@1.0.3:
   version "1.0.3"
@@ -15231,6 +15236,11 @@ yargs@^16.1.0:
     string-width "^4.2.0"
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
+
+yarn@^1.22.10:
+  version "1.22.10"
+  resolved "https://ramseysolutions.jfrog.io/artifactory/api/npm/npm/yarn/-/yarn-1.22.10.tgz#c99daa06257c80f8fa2c3f1490724e394c26b18c"
+  integrity sha1-yZ2qBiV8gPj6LD8UkHJOOUwmsYw=
 
 yauzl@^2.4.2:
   version "2.10.0"
