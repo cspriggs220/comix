@@ -29,8 +29,12 @@
     "styled-components": "^4.2.1"
   },
   "devDependencies": {
+    "babel-jest": "^27.0.5",
+    "babel-preset-gatsby": "^1.8.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^27.0.5",
-    "prettier": "^1.16.4"
+    "prettier": "^1.16.4",
+    "react-test-renderer": "^17.0.2"
   },
   "keywords": [
     "gatsby"
