@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div
+  className="sc-bdVaJa jQYQpy"
+>
+  <div
+    className="sc-bwzfXH gxdjIf"
+  >
+    <h1
+      style={
+        Object {
+          "margin": 0,
+        }
+      }
+    >
+      <a
+        href="/"
+        style={
+          Object {
+            "color": "white",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Default Starter
+      </a>
+    </h1>
+  </div>
+</div>
+`;
